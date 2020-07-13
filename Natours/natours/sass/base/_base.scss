@@ -1,0 +1,25 @@
+/* universal selector */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	/* font-size: 10px; */
+	/*
+  1rem = 10px, but bad practice
+
+  font-size: 100% means that it will be 16px
+  So in order to use our 10px measurement for whatever fonts the user has in mind
+  We do 10/16 = 0.625 = 62.5%
+  */
+	font-size: 62.5%;
+}
+
+body {
+	/* changes box model so that borders or paddings are added to the total width or height */
+	box-sizing: border-box;
+}
