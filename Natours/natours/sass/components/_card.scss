@@ -96,8 +96,7 @@
 
 	// back side styling
 	&__cta {
-		position: absolute;
-		@include center-positioning;
+		@include absCenter;
 		width: 90%;
 		text-align: center;
 	}
