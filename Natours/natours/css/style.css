@@ -589,6 +589,22 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
+  @media (max-width: 75em) {
+    .popup__content {
+      display: flex;
+      flex-direction: column;
+      width: 75%; }
+    .popup__left {
+      display: flex;
+      flex-direction: row;
+      width: 100%; }
+    .popup__right {
+      vertical-align: middle;
+      width: 100%;
+      padding: 3rem 5rem; }
+    .popup__img {
+      display: block;
+      width: 50%; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
