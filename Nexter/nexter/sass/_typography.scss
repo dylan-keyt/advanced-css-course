@@ -15,11 +15,11 @@
 	font-style: italic;
 	line-height: 1;
 
-	*--light {
+	&--light {
 		color: $color-grey-light-1;
 	}
 
-	*--dark {
+	&--dark {
 		color: $color-grey-dark-1;
 	}
 }
@@ -35,11 +35,11 @@
 	@extend %heading;
 	font-size: 1.9rem;
 
-	*--light {
+	&--light {
 		color: $color-grey-light-1;
 	}
 
-	*--dark {
+	&--dark {
 		color: $color-grey-dark-1;
 	}
 }
